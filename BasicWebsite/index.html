@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <!-- Head Tags contains info about the website and it's where you load CSS and JS files -->
+    <head>
+        <meta charset="utf-8">
+        <!-- Should make the width of the website the same as whatever device is viewing it. -->
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <title>My First Website</title>
+    </head>
+
+    <!-- Body tags are the main content of the page -->
+    <body>
+        <h1>My First Website</h1>
+        <h2>An HTML Playground</h2>
+        <h3>An HTML Playground</h3>
+        <h4>An HTML Playground</h4>
+        <h5>An HTML Playground</h5>
+        <h6>An HTML Playground</h6>
+
+        This is my very first website and I'm <b>extremely excited!!!</b>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.   
+            Mauris vestibulum, sapien in dapibus sollicitudin, libero ipsum viverra lorem,
+             non scelerisque turpis justo quis enim. Curabitur semper magna eget leo sagittis, 
+             in dictum massa venenatis. Nullam arcu neque, sodales at facilisis quis, 
+             malesuada quis libero. Nullam malesuada molestie laoreet. 
+             Ut rhoncus turpis sit amet ligula lobortis, nec rhoncus leo molestie. 
+             Proin imperdiet dignissim odio vitae iaculis. 
+             In hac habitasse platea dictumst.
+        </p>
+
+        <p>
+            Pellentesque ut volutpat sem, in consequat dui. 
+            Curabitur non lectus fermentum, vehicula tortor at, lacinia justo. 
+            Vivamus euismod tellus vitae imperdiet convallis. 
+            Phasellus pharetra urna quis ullamcorper fermentum. 
+            Praesent pulvinar suscipit sem, nec placerat nibh dignissim a. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Curabitur nec pellentesque neque. Suspendisse in eros quis turpis ornare tincidunt. 
+            Praesent ut nibh in orci iaculis faucibus vel at purus. 
+            Aenean scelerisque porta libero, cursus rutrum tortor interdum a. 
+            Nullam elementum mauris non lectus iaculis, vel malesuada odio porta. 
+            In vel nulla efficitur, tristique sapien et, facilisis est. 
+            Sed ultricies sem mi, sit amet ullamcorper orci ornare lacinia.
+        </p>
+
+        <!-- Adding a line break with br tags -->
+        Proin sapien lorem, feugiat sed feugiat et, imperdiet vel nisi. <br> <br> <br>
+        <!-- Bold Tags -->
+         <b>Maecenas iaculis ut mi non elementum.</b><br>
+         <!-- Italic Tags -->
+         <i>In vitae urna ut metus vehicula fringilla id eget eros.</i><br>
+         <!-- Underline Tags -->
+         <u>Nullam rutrum ipsum quis tellus finibus, et ullamcorper risus pharetra.</u><br>
+         <!-- Emphasize Tags-the default is just italicize -->
+         <em>Morbi et erat purus. Vestibulum vel tempus est. Pellentesque vitae metus dolor.</em><br>
+         <!-- Strong Tags-same as bold -->
+         <strong>Sed et euismod nibh. Morbi sollicitudin quis erat quis vehicula.</strong><br>
+
+         <!-- Horizontal Rule Tag -->
+         <hr>
+         Mauris a iaculis libero, id lacinia diam. 
+         <!-- Link Tag- written as an A tag(anchor) -->
+         <!-- Add attribute hypertext reference(href) -->
+         <!-- Adding a target attribute will determine if the link is opened on the current tab or a new tab -->
+         <a href="https://www.google.com" target="_blank">Mauris maximus convallis massa auctor tincidunt.</a>
+             Fusce porttitor lobortis risus nec rutrum. 
+         Aenean convallis ipsum eu felis semper sodales. 
+         Donec sagittis porta ante, in dapibus massa ultricies in.
+         <br>
+
+         <!-- Image Tags require a URL -->
+         <img src="https://static.zerochan.net/Greninja.full.1972314.jpg" border="10">
+
+         <!-- Unordered Bulleted List of Pokemon. Each item has its own list item tag -->
+         <ul>
+            <li>Bulbasaur</li>
+            <li>Charmander</li>
+            <li>Squirtle</li>
+         </ul>
+
+         <!-- Ordered List -->
+         <ol>
+            <li>apples</li>
+            <li>oranges</li>
+            <li>pineapples</li>
+            <li>mangoes</li>
+            <li>dragonfruits</li>
+         </ol>
+
+         <!-- Nested List -->
+         <ul>
+            <li>apples
+                <ul>
+                    <li>golden delicious</li>
+                    <li>granny smith</li>
+                    <li>gala</li>
+                </ul>
+            </li>
+            <li>oranges</li>
+            <li>pineapples</li>
+            <li>mangoes</li>
+            <li>dragonfruits</li>
+         </ul>
+
+         <!-- Table Tags -->
+         <!-- Cell Padding controls the amount of extra space INSIDE each cell. -->
+         <!-- Cell Spacing example has 10 pixels between each cell -->
+         <table border="10" cellpadding="10" cellspacing="0">
+             <!-- Table Row Tag -->
+             <!-- First Row = Column Headers -->
+             <tr> 
+                 <!-- Table Header Tag -->
+                 <th></th>
+                 <th>Month</th>
+                 <th>Rent</th>
+                 <!-- Want to split Utilities into Elctric and Water. colspan will split it into 2 columns-->
+                 <th colspan="2">Utilities</th>
+                 <th>Groceries</th>
+                 <th>Eating Out</th>
+                 <th>Entertainment</th>
+             </tr>
+
+             <!-- Second Row-will have added data -->
+             <tr>
+                <!-- Table Data Headers -->
+                <td rowspan="3">Fall</td>
+                <td>June</td>
+                <td>$1500</td>
+                <td>$100</td>
+                <td>$50</td>
+                <td>$350</td>
+                <td>$100</td>
+                <td>$50</td>
+            </tr>
+
+            <tr>
+                <td>July</td>
+                <td>$1500</td>
+                <td>$100</td>
+                <td>$50</td>
+                <td>$350</td>
+                <td>$100</td>
+                <td>$50</td>
+            </tr>
+
+             <tr>
+                 <td>August</td>
+                 <td>$1500</td>
+                 <td>$100</td>
+                 <td>$50</td>
+                 <td>$350</td>
+                 <td>$100</td>
+                 <td>$50</td>
+             </tr>
+         </table>
+
+    </body>
+</html>
+

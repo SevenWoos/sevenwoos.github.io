@@ -1,0 +1,36 @@
+/* CSS Styling Sheet */
+
+.title{
+    color:dimgrey;
+    /* background:red; */
+    background-image: url("https://wallpaperaccess.com/full/257760.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-size: 50px;
+    font-style:italic;
+
+}
+
+/* .headers{
+    color:white;
+    background: red;
+    font-size:50px;
+    font-style:italic;
+} */
+
+/* .projects{
+    color:black;
+    background: green;
+    font-size:50px;
+    font-style:italic;
+} */
+
+/* Cover Page */
+/* .cover-page { 
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://static0.thethingsimages.com/wordpress/wp-content/uploads/2020/06/Zuko-Dragon-Dance.jpg");
+    background-size: cover;
+    filter: brightness(90%);
+} */
