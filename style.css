@@ -17,7 +17,7 @@
     display: inline-block;
     width: 100%;
     height: 100vh;
-    filter: brightness(65%);
+    filter: brightness(55%);
     background: url("https://images.unsplash.com/photo-1564540574859-0dfb63985953?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fG9mZmljZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
     background-size: cover;
     color: black;
@@ -29,21 +29,25 @@
     display: inline-block;
     margin-left: 20vw;
     margin-right: 10vw;
-    margin-top: 10vh;
+    margin-top: 7vh;
 }
 
 .projects{
     display: inline-block;
     margin-left: 20vw;
     margin-right: 10vw;
-    margin-top: 10vh;
+    margin-top: 7vh;
+}
+
+#projects_header{
+    margin-left: 23vw;
 }
 
 .contact{
     display: inline-block;
     margin-left: 20vw;
     margin-right: 10vw;
-    margin-top: 10vh;
+    margin-top: 7vh;
 }
 
 nav{
@@ -89,4 +93,50 @@ nav{
 
 .contact{
     border-bottom: 1px solid #ccc;
+}
+
+#yelp{
+
+}
+
+#yelp img{
+    border-radius: 10px;
+    width: 240px;
+    height: 160px;
+}
+
+#ggwp img{
+    border-radius: 10px;
+    width: 240px;
+    height: 160px;
+}
+
+#songs img{
+    border-radius: 10px;
+    width: 240px;
+    height: 160px;
+}
+
+#yelp_header{
+    font-size: 20px;
+}
+
+#yelp_role{
+    font-size: 13px;
+}
+
+#ggwp_header{
+    font-size: 20px;
+}
+
+#ggwp_role{
+    font-size: 13px;
+}
+
+#songs_header{
+    font-size: 20px;
+}
+
+#songs_role{
+    font-size: 13px;
 }
