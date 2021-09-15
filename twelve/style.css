@@ -1,0 +1,70 @@
+/* Target the whole page to change the background color by using body without hashtag */
+body {
+    background-color: #EEEEEE;
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+a {
+    /* Get rid of the underlines in the navigation links */
+    text-decoration: none;
+    color: red;
+
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+#container{
+    background-color: white;
+    width: 800px;
+
+    /* centering the container */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header{
+    background-color: #66CCFF;
+    /* changing the text to be white */
+    color:white;
+    /* centering the header text */
+    text-align: center;
+    padding: 10px;
+}
+
+#content{
+    padding: 10px 10px 10px 10px;
+}
+
+#nav{
+    width: 180px;
+    /* want nav to be on the left */
+    float: left;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+/* Dot for class targeting */
+#nav.selected{
+    font-weight: bold;
+
+}
+
+#main{
+    width: 600px;
+    float: right;
+}
+
+#footer{
+    /* We must be clear of any floating elements before we display ourselves */
+    clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color: white;
+    text-align: right;
+}

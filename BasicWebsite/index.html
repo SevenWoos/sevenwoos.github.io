@@ -2,14 +2,26 @@
 <html>
     <!-- Head Tags contains info about the website and it's where you load CSS and JS files -->
     <head>
+        <!-- Meta Tags live in the head of html. Can be used to define information about our webpage -->
         <meta charset="utf-8">
+
+        <!-- Can be used by search engines to decide your pagerankings  -->
+        <meta name="description" content="Your Description">
+
+        <meta name="author" content="Sven">
+
+        <!-- Storing Keyword to help Search Engines index our site -->
+        <meta name="keywords" content="HTML, tutorial, firstwebsite, first website">
+
+
+        <!-- How your website is displayed -->
         <!-- Should make the width of the website the same as whatever device is viewing it. -->
-        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>My First Website</title>
     </head>
 
     <!-- Body tags are the main content of the page -->
-    <body>
+    <body style="background-color:lightblue;">
         <h1>My First Website</h1>
         <h2>An HTML Playground</h2>
         <h3>An HTML Playground</h3>
@@ -18,7 +30,17 @@
         <h6>An HTML Playground</h6>
 
         This is my very first website and I'm <b>extremely excited!!!</b>
+        <hr>
 
+        <!-- Adding a Video from your Computer -->
+        <video src="Pokémon Theme Song.mp4" controls width="300">Pokemon Theme</video>
+        <hr>
+
+        <!-- Adding Youtube Videos -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/29eCyyTWKJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        <!-- Paragraphs are an exmaple of block elements NOT in-line elements -->
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.   
             Mauris vestibulum, sapien in dapibus sollicitudin, libero ipsum viverra lorem,
@@ -61,8 +83,11 @@
          <!-- Horizontal Rule Tag -->
          <hr>
          Mauris a iaculis libero, id lacinia diam. 
+
+
          <!-- Link Tag- written as an A tag(anchor) -->
          <!-- Add attribute hypertext reference(href) -->
+
          <!-- Adding a target attribute will determine if the link is opened on the current tab or a new tab -->
          <a href="https://www.google.com" target="_blank">Mauris maximus convallis massa auctor tincidunt.</a>
              Fusce porttitor lobortis risus nec rutrum. 
@@ -75,7 +100,7 @@
 
          <!-- Unordered Bulleted List of Pokemon. Each item has its own list item tag -->
          <ul>
-            <li>Bulbasaur</li>
+            <li><a href="#">Bulbasaur</a></li>
             <li>Charmander</li>
             <li>Squirtle</li>
          </ul>
@@ -104,25 +129,62 @@
             <li>dragonfruits</li>
          </ul>
 
+         <!-- Types of Lists can be specified-->
+         <ol type="I">
+             <li>Linear Regression</li>
+             <li>Logistic Regression</li>
+             <li>Decision Tree
+                 <ol>
+                     <li>Decision Tree Regressor</li>
+                     <li>Decision Tree Classifier</li>
+                 </ol>
+             </li>
+             <li>Random Forest 
+                <ol>
+                    <li>Random Forest Regressor</li>
+                    <li>Random Forest Classifier</li>
+                </ol>
+             </li>
+             <li>Collaborative Filtering Model</li>
+
+         </ol>
+
+         <!-- Description Lists with Description Terms -->
+         <dl>
+            <dt>Apples</dt>
+            <dd> - They are red</dd>
+
+            <dt>Oranges</dt>
+            <dd> - They are orange</dd>
+         </dl>
+
          <!-- Table Tags -->
          <!-- Cell Padding controls the amount of extra space INSIDE each cell. -->
          <!-- Cell Spacing example has 10 pixels between each cell -->
          <table border="10" cellpadding="10" cellspacing="0">
-             <!-- Table Row Tag -->
-             <!-- First Row = Column Headers -->
-             <tr> 
-                 <!-- Table Header Tag -->
-                 <th></th>
-                 <th>Month</th>
-                 <th>Rent</th>
-                 <!-- Want to split Utilities into Elctric and Water. colspan will split it into 2 columns-->
-                 <th colspan="2">Utilities</th>
-                 <th>Groceries</th>
-                 <th>Eating Out</th>
-                 <th>Entertainment</th>
-             </tr>
 
-             <!-- Second Row-will have added data -->
+            <!-- Table Header Tags -->
+            <thead>
+                <caption><h2>List of Bills</h2></caption>
+                <!-- Table Row Tag -->
+                <!-- First Row = Column Headers -->
+                <tr> 
+                    <!-- Table Header Tag -->
+                    <th></th>
+                    <th>Month</th>
+                    <th>Rent</th>
+                    <!-- Want to split Utilities into Elctric and Water. colspan will split it into 2 columns-->
+                    <th colspan="2">Utilities</th>
+                    <th>Groceries</th>
+                    <th>Eating Out</th>
+                    <th>Entertainment</th>
+                </tr>
+            </thead>
+
+
+            <!-- Body of Table Tags -->
+            <tbody>
+                <!-- Second Row-will have added data -->
              <tr>
                 <!-- Table Data Headers -->
                 <td rowspan="3">Fall</td>
@@ -154,7 +216,91 @@
                  <td>$100</td>
                  <td>$50</td>
              </tr>
+            </tbody>
+             
          </table>
+
+         <hr>
+
+         <!-- Divs(Block Containers) and Spans(In-line Containers) -->
+
+         <!-- Set of tags that wraps other HTML elements -->
+
+         <span>span1</span>
+         <span>span2</span>
+
+         <hr>
+
+         <div>div1</div>
+         <div>div2</div>
+
+         <hr>
+
+         <!-- Inputs and Forms -->
+
+         <!-- Text Box Example -->
+         <input type="text" value="Enter your username">
+
+         <hr>
+
+         <input type="password">
+
+         <hr>
+
+         <!-- Bigger text box -->
+         <textarea rows="10" cols="30">
+            Enter a paragraph
+         </textarea>
+
+         <hr>
+
+         <input type="date">
+
+         <hr>
+
+         <input type="email">
+
+         <hr>
+
+         <input type="range">
+
+         <hr>
+
+         <input type="file">
+
+         <hr>
+
+         <!-- Can checkmark them at the SAME TIME -->
+         <input type="checkbox">
+         <input type="checkbox">
+
+         <hr>
+
+         <!-- Can only click on ONE of the radioboxes at the same time when SAME NAME-->
+
+         <input name="btn" type="radio">
+         <input name="btn" type="radio">
+
+         <hr>
+
+         <input type="submit">
+
+         <hr>
+
+         <!-- Forms used to wrap user inputs -->
+         <form>
+             <input type="submit" />
+         </form>
+
+         <hr>
+
+         <!-- iFrames is an HTML element that can display another website inside yo website -->
+
+         <!-- Some websites will not allow iFrames like Amazon and youtube -->
+
+         <iframe src="https://giraffeacademy.com/" frameborder="0" width="1000" height="800">Sorry</iframe>
+
+         <hr>
 
     </body>
 </html>
