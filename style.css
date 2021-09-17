@@ -8,10 +8,14 @@
     display: block;
     align-items: center;
     justify-content: space-between;
-    background: url("https://wallpaperaccess.com/full/392782.jpg");
-    color: rgb(252, 245, 245);
 
-}
+    /* background: url("https://wallpaperaccess.com/full/392782.jpg");
+    color: rgb(248, 233, 233); */
+
+    background: url("https://image.freepik.com/free-photo/beautiful-shining-stars-night-sky_181624-622.jpg");
+    /* color: rgb(185, 243, 245); */
+    color: rgb(197, 243, 245);
+} 
 
 .home{
     display: inline-block;
@@ -30,6 +34,7 @@
     margin-left: 20vw;
     margin-right: 10vw;
     margin-top: 7vh;
+    border-bottom: 1px solid #ccc;
 }
 
 .projects{
@@ -37,6 +42,9 @@
     margin-left: 20vw;
     margin-right: 10vw;
     margin-top: 7vh;
+    border-bottom: 1px solid #ccc;
+    /* filter: brightness(35%);
+    color: white; */
 }
 
 #projects_header{
@@ -48,6 +56,8 @@
     margin-left: 20vw;
     margin-right: 10vw;
     margin-top: 7vh;
+    border-bottom: 1px solid #ccc;
+
 }
 
 nav{
@@ -83,21 +93,7 @@ nav{
     border-bottom: 1px solid #ccc;
 }
 
-.about{
-    border-bottom: 1px solid #ccc;
-}
-
-.projects{
-    border-bottom: 1px solid #ccc;
-}
-
-.contact{
-    border-bottom: 1px solid #ccc;
-}
-
-#yelp{
-
-}
+/* Projects Images  */
 
 #yelp img{
     border-radius: 10px;
@@ -118,25 +114,65 @@ nav{
 }
 
 #yelp_header{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #yelp_role{
     font-size: 13px;
 }
 
+#yelp_desc{
+    display: inline-block;
+    width: 90vh;
+    margin-left: 10vh;
+    margin-top: 3vh;
+}
+
+#yelp a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    /* margin-right: 15px; */
+}
+
 #ggwp_header{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #ggwp_role{
     font-size: 13px;
 }
 
+#ggwp_desc{
+    display: inline-block;
+    width: 90vh;
+    margin-left: 10vh;
+    margin-top: 3vh;
+}
+
+#ggwp a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+}
+
 #songs_header{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #songs_role{
     font-size: 13px;
+}
+
+#songs_desc{
+    display: inline-block;
+    width: 90vh;
+    margin-left: 10vh;
+    margin-top: 3vh;
+}
+
+#songs a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
 }
