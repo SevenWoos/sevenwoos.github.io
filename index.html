@@ -7,74 +7,104 @@
         <title>Sven's Portfolio</title>
         <link rel="stylesheet" href="style.css">
     </head>
-
     <body>
         <div class="container">
-            <nav>
-                <div class="nav_bar">
-                    <div class ="nav_bar_links">
-                        <ul>
-                            <a href='#home'>Home</a>
-                            <a href='#about'>About</a>
-                            <a href='#projects'>Projects</a>
-                            <a href='#contact'>Contact</a>
-                        </ul>
-                    </div>
-                </div>
+            <nav class="nav_bar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects_header">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </nav>
+            <section id="home">
+                <h1><b><i>Sven's Data Science Portfolio</b></i></h1>
+            </section>
 
-            <div class="home">
-                <h1><b><i>Sven's Data Science Portfolio</i></b></h1>
-            </div>
-    
-            <div class="about">
-                <h4>Who am I? You sure you want to know?</h4>
-                <br>
-                <p><br>There will stuff about me here >:P</p>
-                <br>
-                <p>sTUF</p>
-                <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at odio congue, porta libero sit amet, gravida nisl. Aenean dignissim, purus aliquam egestas elementum, ex metus porttitor velit, vitae semper odio libero non turpis. Mauris accumsan, neque eu ultricies porttitor, lorem tortor rhoncus tellus, at egestas ex diam varius enim. Praesent nisl ligula, interdum semper accumsan sed, cursus a tortor. Donec ut volutpat velit. Vivamus ultricies lacinia leo, id rutrum leo porttitor id. Aenean molestie sit amet tortor ut accumsan. Suspendisse nulla massa, mattis nec scelerisque et, ullamcorper a est. Phasellus vel erat magna. Vestibulum eu sem magna. Morbi neque libero, blandit in rhoncus molestie, finibus in lorem. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas at pretium mauris.</p>
-                <br>
-                <br>
-            </div>
+            <section id="about">
+                <h1>Who am I? You sure you want to know?</h1>
+
+                <div id = "about_stuff">
+                    <p>
+                        <div id="about_image"></span>
+                            <img src="https://i.pinimg.com/originals/d0/e5/5b/d0e55bd2f301a28ad64282a316360cd8.jpg" width="350" height="500" style="float: left;">
+                        </div>
+
+                        <br><i> What's up to the people who somehow stumbled across this portfolio of mine.
+                        If you are here, the google search algorithm must have somehow guided you here.
+                        Either way, welcome to my little slice of the world.
+                        <br>
+                        <br>
+                        My name is Sven Wu and I was a Data Science undergraduate at UC Berkeley.
+                        Ever since I graduated from Cal, I have been grinding away at my personal projects 
+                        to keep myself busy. 
+                        Right now some of my projects include this portfolio(how meta) as well as my Discord 
+                        bots.
+                        <br>
+                        <br>
+                        When I am not working, you'll often find me playing videogames or basketball with my friends. 
+                        I love going out and traveling with my family a lot. My goal is to be able to visit other places
+                        outside the US someday, like Taiwan, Seoul, or France.
+                        <br>
+                        <br>
+                        I am a pretty lazy person so most of the time I just like sleeping. When I can manage to compel 
+                        myself to be active, I exercise and workout. I like to run too but I'm not that good at it.
+                        We're working on that. 
+                    </i>
+                </p>
+                </div>
+
+            </section>
+
+            <!-- <section id="projects">
+                <h1>Some Cool Projects I Built!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus non unde fugiat? Fuga, non dicta.</p>
+            </section> -->
 
             <div class="projects">
                 <div id="projects_header">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                     <h2>Some Cool Projects I Built!</h2>
-                    <br>
-                    <br>
                 </div>
                 <div id="yelp">
                     <div id="yelp_header">
-                        <p><b><i>Yelp Restaurant Survival (2021)</i></b> 
+                        <p><h4><b><i>Yelp Restaurant Survival (2021)</i></b></h4>
                         </p>
                     </div>
                     <div id="yelp_role">
                         <p>
-                            <br>
                             <i>ML Algorithm Developer and Project Reporter (Team Member)</i>
                         </p>
                     </div>
-                    <img src="images/yelp.jpg">
+                    <img src="images/yelp.jpg"> 
                     <span id="yelp_desc">
                         <p>
+                            <br>
                             <i>
                             Main ML algorithm developer where I built 5 different models trained on Yelp's 
                             public restaurant dataset to extract the most important features that could be
                             used to predict whether or not a restaurant would close.
                             <br>
                             <br>
-                            I then used those results with my team to generate insights for owners to mediate the 
-                            success and health of their restaurant’s future. For example, I reported
-                             the optimal opening and closing times of the more successful restaurants 
-                             and the pitfalls of restaurants that ended up closing. This would help inform restaurants 
+                            I used those results to generate insights for owners to mediate the 
+                            success and health of their restaurant. This would help inform owners 
                              on the type of next steps they can take to prolong their restuarant's longevity.
+                             <br>
+                             <br>
+                             Check out the Github and Medium Article linked under this image for more!
                             </i>
                         </p>
                     </span>
-                    <div id="yelp_git" width=60px>
+                    <div id="yelp_git">
                         <a href='https://github.com/Sockcave/Yelp' target="_blank"><img src="images/github_white_logo.png"></a>
+                    </div>
+                    <div id="yelp_medium">
+                        <a href='https://medium.com/@svenwu/my-yelp-machine-learning-models-6c36fe27c77e' target="_blank"><img src="images/medium_green.jpg"></a>
                     </div>
                 </div>
                 <br>
@@ -86,23 +116,25 @@
                     </div>
                     <div id="ggwp_role">
                         <p>
-                            <br>
                             <i>NLP Algorithm Developer and Insight Reporter (Team Member) </i>
                         </p>
                     </div>
                     <img src="images/ggwp_logo.jpg">
                     <span id="ggwp_desc">
                         <p>
+                            <br>
                             <i>
                             Worked with GGWP startup to identify patterns of toxicity within games by
                             exploring provided 21 million data points derived from Dota 2 chats. 
-                            My team used NLP for EDA and AWS to store and process the large dataset.
                             <br>
                             <br>
-                            I worked on generating player profiles from my team's results and deployed surveys in 
+                            I worked on player profiles and deployed surveys in 
                             some of my Discord gaming communities to determine which forms of toxicity should be 
-                            given priority by game moderators. The player profiles would help moderators determine what kind of 
-                            in-game measures they would take next on toxic players(p-bans, timeout, IP blocks, etc).
+                            given priority by moderators. The player profiles would help moderators determine what kind of 
+                            in-game measures they would take on toxic players(p-bans, timeout, IP blocks, etc).
+                            <br>
+                             <br>
+                             Check out the Github and Medium Article(when I finish it :P) linked under this image for more!
                         </i> 
                         </p>
                     </span>
@@ -119,18 +151,25 @@
                     </div>
                     <div id="songs_role">
                         <p>
-                            <br>
                             <i>ML Algorithm Developer</i>
                         </p>
                     </div>
                     <img src="images/music2.jpg">
                     <span id="songs_desc">
                         <p>
+                            <br>
                             <i>
-                            p1 on songs
+                            Built a collaborative filtering model to help recommend specific songs to
+                            specific users. I was given a dataset that contained numerous different people
+                            and their ratings to a wide variety of songs. 
                             <br>
                             <br>
-                            p2 on songs
+                            2 validation sets were used. One for hyperparameter tuning and the other for the 
+                            final blended model. Concluded that adding genre dummy variables increased the 
+                            predictive power of our collaborative filtering model.
+                            <br>
+                             <br>
+                             Check out the Github and Medium Article(when I finish it :P) linked under this image for more!
                         </i> 
                         </p>
                     </span>
@@ -141,14 +180,21 @@
                 <br>
             </div>
 
-            <div class="contact">
-                <h4> Reach Out To Me!</h4>
-                <p><br>My websites and links</p>
-                <p>Mauris efficitur volutpat placerat. Duis dapibus risus massa, nec aliquam orci iaculis id. Duis maximus elit mollis risus suscipit suscipit. Maecenas fermentum mi a tellus tempus scelerisque. Maecenas facilisis, enim vel ultrices semper, felis dolor ullamcorper dolor, eu cursus ligula urna in justo. Mauris nunc massa, euismod tempus euismod ut, fermentum vitae nunc. Ut scelerisque ligula diam. Vivamus nec mi non urna blandit volutpat eget vitae diam. Proin eu lobortis tellus, ac vehicula elit. Nulla facilisi. Quisque ultricies magna mauris, nec volutpat metus ultrices sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris posuere tincidunt vestibulum. Etiam ornare metus et dolor pellentesque sodales. Pellentesque lobortis mauris nibh, eu molestie urna ultrices quis.</p>
-                <br>
-                <br>
-            </div>
-        </div>  
+            <section id="contact">
+                <h1>Reach Out to Me!</h1>
+                <div id="contact_links">
+                    <a href="#" target="_blank">Sven's Email: swenwu96@gmail.com</a>
+                    <br>
+                    <a href="https://github.com/sockcave" target="_blank">Sven's Github</a>
+                    <br>
+                    <a href="https://www.linkedin.com/in/sven-wu-161844149/" target="_blank">Sven's Linkedin</a>
+                    <br>
+                    <a href="https://medium.com/@svenwu" target="_blank">Sven's Medium</a>
+                    <br>
+                </div>
+                
+            </section>
 
+        </div>
     </body>
-</html> 
+    </html>

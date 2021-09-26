@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', "Trebuchet MS", sans-serif;
+}
+
+.container{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+
+    /* background: url("https://wallpaperaccess.com/full/392782.jpg");
+    color: rgb(248, 233, 233); */
+
+    background: url("https://image.freepik.com/free-photo/beautiful-shining-stars-night-sky_181624-622.jpg");
+    /* color: rgb(185, 243, 245); */
+    color: rgb(197, 243, 245);
+} 
+
+.home{
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(55%);
+    background: url("https://images.unsplash.com/photo-1564540574859-0dfb63985953?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fG9mZmljZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-size: cover;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.about{
+    display: inline-block;
+    margin-left: 20vw;
+    margin-right: 10vw;
+    margin-top: 7vh;
+    border-bottom: 1px solid #ccc;
+}
+
+.projects{
+    display: inline-block;
+    margin-left: 20vw;
+    margin-right: 10vw;
+    margin-top: 7vh;
+    border-bottom: 1px solid #ccc;
+    /* filter: brightness(35%);
+    color: white; */
+}
+
+#projects_header{
+    margin-left: 23vw;
+}
+
+.contact{
+    display: inline-block;
+    margin-left: 20vw;
+    margin-right: 10vw;
+    margin-top: 7vh;
+    border-bottom: 1px solid #ccc;
+
+}
+
+nav{
+    top: 10vh;
+    flex-basis: 25%;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: space-between;
+    padding: 15px 5%;
+    position: fixed;
+    z-index: 100;
+}
+
+.nav_bar{
+    flex-basis: 25%;
+    /* bars will NOT move */
+    position: sticky;
+    top: 100px;
+    align-self: flex-start;
+}
+
+.nav_bar_links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 25px;
+    color: rgb(250, 228, 228);
+    width: fit-content;
+}
+
+.nav_bar_links{
+    border-bottom: 1px solid #ccc;
+}
+
+/* Projects Images  */
+
+#yelp img{
+    border-radius: 10px;
+    width: 240px;
+    height: 160px;
+}
+
+#ggwp img{
+    border-radius: 10px;
+    width: 240px;
+    height: 160px;
+}
+
+#songs img{
+    border-radius: 10px;
+    width: 240px;
+    height: 160px;
+}
+
+#yelp_header{
+    font-size: 22px;
+}
+
+#yelp_role{
+    font-size: 13px;
+}
+
+#yelp_desc{
+    display: inline-block;
+    width: 90vh;
+    margin-left: 10vh;
+    margin-top: 3vh;
+}
+
+#yelp a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    /* margin-right: 15px; */
+}
+
+#ggwp_header{
+    font-size: 22px;
+}
+
+#ggwp_role{
+    font-size: 13px;
+}
+
+#ggwp_desc{
+    display: inline-block;
+    width: 90vh;
+    margin-left: 10vh;
+    margin-top: 3vh;
+}
+
+#ggwp a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#songs_header{
+    font-size: 22px;
+}
+
+#songs_role{
+    font-size: 13px;
+}
+
+#songs_desc{
+    display: inline-block;
+    width: 90vh;
+    margin-left: 10vh;
+    margin-top: 3vh;
+}
+
+#songs a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+}
