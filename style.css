@@ -82,7 +82,7 @@ section{
     display: inline-block;
     align-items: center;
     justify-content: center;
-    height: 275vh;
+    height: 325vh;
     /* border-bottom: 1px solid #ccc; */
     background: url("https://image.freepik.com/free-photo/beautiful-shining-stars-night-sky_181624-622.jpg") center/cover;;
 }
@@ -266,6 +266,37 @@ section#home {
 }
 
 #marvel_height a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#pokemon img{
+    border-radius: 10px;
+    width: 240px;
+    height: 160px;
+    margin-left: 25vh;
+}
+
+#pokemon_header{
+    margin-left: 25vh;
+    display: inline-block;
+    font-size: 22px;
+}
+
+#pokemon_role{
+    margin-left: 25vh;
+    font-size: 13px;
+}
+
+#pokemon_desc{
+    display: inline-block;
+    margin-left: 3vh;
+    width: 133vh;
+    margin-right: 15vh;
+}
+
+#pokemon a img{
     width: 35px;
     height: 35px;
     border-radius: 4px;
