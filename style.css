@@ -94,6 +94,13 @@ section{
     justify-content: center;
 }
 
+#projects_sub{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
 /* Section Images */
 section#home {
     color: rgba(51, 216, 245, 0.966);
