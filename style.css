@@ -111,8 +111,12 @@ section#home {
   
   section#about {
     /* background: url("https://image.freepik.com/free-photo/beautiful-shining-stars-night-sky_181624-622.jpg") no-repeat center center/cover;; */
-    background: url('https://source.unsplash.com/K2tdx2mFDHc/1600x900') no-repeat center center/cover;;
-    height: 140vh;
+    /* background: url('https://source.unsplash.com/K2tdx2mFDHc/1600x900') no-repeat center center/cover;; */
+    height: 128vh;
+
+    background: url('https://freerangestock.com/sample/37396/space-background.jpg');
+    /* background-color: #dab928; */
+    /* color:rgba(9, 21, 185, 0.966); */
 }
   
   section#contact {
