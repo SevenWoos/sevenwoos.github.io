@@ -1,0 +1,408 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', "Trebuchet MS", sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+body{
+    font-family: 'Raleway', "Trebuchet MS", sans-serif;
+    background: #333;
+    color: #fff;
+    line-height: 1.6;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    height:100%;
+    /* CSS Smooth Scroll */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    color: rgb(197, 243, 245);
+}
+
+.nav_bar{
+    /* want it at the top */
+    position: fixed;
+    top: 0;
+    /* so it is always at the top */
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+}
+
+.nav_bar ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    /* want nav bar contents in center */
+    justify-content: center;
+}
+
+.nav_bar ul li{
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.nav_bar ul li a{
+    text-decoration: none;
+    color: rgb(250, 228, 228);
+}
+
+/* hover state for nav bar */
+.nav_bar ul li a:hover{
+    color: skyblue;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 120vh;
+    /* scroll-snap-align: center; */
+}
+
+.section h1{
+    font-size: 4rem;
+}
+
+.section p{
+    font-size: 1.5rem;
+}
+
+.projects{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 520vh;
+    /* border-bottom: 1px solid #ccc; */
+    background: url("https://image.freepik.com/free-photo/beautiful-shining-stars-night-sky_181624-622.jpg") center/cover;;
+}
+
+#projects_header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#projects_sub{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Section Images */
+section#home {
+    color: rgba(51, 216, 245, 0.966);
+    background: url("https://images.unsplash.com/photo-1564540574859-0dfb63985953?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fG9mZmljZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80") no-repeat center center/cover;;
+    filter: brightness(70%);
+    font-size: 50px;
+  }
+  
+  section#about {
+    /* background: url("https://image.freepik.com/free-photo/beautiful-shining-stars-night-sky_181624-622.jpg") no-repeat center center/cover;; */
+    /* background: url('https://source.unsplash.com/K2tdx2mFDHc/1600x900') no-repeat center center/cover;; */
+    height: 128vh;
+
+    background: url('https://freerangestock.com/sample/37396/space-background.jpg');
+    /* background-color: #dab928; */
+    /* color:rgba(9, 21, 185, 0.966); */
+}
+  
+  section#contact {
+    /* background: url('https://source.unsplash.com/2aAHlfDOhJM/1600x900') no-repeat center center/cover;; */
+    background-color: #dab928;
+    height: 100vh;
+}
+
+#about_image{
+    margin-right: 20vh;
+}
+
+#about_stuff{ 
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 40vh;
+    margin-right: 25vh;
+}
+
+/* Projects Images and Headers  */
+
+#yelp img{
+    border-radius: 10px;
+    width: 240px;
+    height: 160px;
+    margin-left: 25vh;
+}
+
+#yelp_header{
+    margin-left: 25vh;
+    display: inline-block;
+    font-size: 22px;
+}
+
+#yelp_role{
+    margin-left: 25vh;
+    font-size: 13px;
+}
+
+#yelp_desc{
+    display: inline-block;
+    margin-left: 3vh;
+    width: 133vh;
+    margin-right: 15vh;
+}
+
+#yelp a img{
+    margin-left: 25vh;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#ggwp img{
+    border-radius: 10px;
+    width: 240px;
+    height: 160px;
+    margin-left: 25vh;
+}
+
+#ggwp_header{
+    margin-left: 25vh;
+    display: inline-block;
+    font-size: 22px;
+}
+
+#ggwp_role{
+    margin-left: 25vh;
+    font-size: 13px;
+}
+
+#ggwp_desc{
+    display: inline-block;
+    margin-left: 3vh;
+    width: 133vh;
+    margin-right: 15vh;
+}
+
+#ggwp a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#songs img{
+    border-radius: 10px;
+    width: 240px;
+    height: 160px;
+    margin-left: 25vh;
+}
+
+#songs_header{
+    margin-left: 25vh;
+    display: inline-block;
+    font-size: 22px;
+}
+
+#songs_role{
+    margin-left: 25vh;
+    font-size: 13px;
+}
+
+#songs_desc{
+    display: inline-block;
+    margin-left: 3vh;
+    width: 133vh;
+    margin-right: 15vh;
+}
+
+#songs a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#contact_links a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#contact_links a img{
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+}
+
+#contacts_links_list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+#marvel_height img{
+    border-radius: 10px;
+    width: 240px;
+    height: 160px;
+    margin-left: 25vh;
+}
+
+#marvel_height_header{
+    margin-left: 25vh;
+    display: inline-block;
+    font-size: 22px;
+}
+
+#marvel_height_role{
+    margin-left: 25vh;
+    font-size: 13px;
+}
+
+#marvel_height_desc{
+    display: inline-block;
+    margin-left: 3vh;
+    width: 133vh;
+    margin-right: 15vh;
+}
+
+#marvel_height a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#pokemon img{
+    border-radius: 10px;
+    width: 240px;
+    height: 160px;
+    margin-left: 25vh;
+}
+
+#pokemon_header{
+    margin-left: 25vh;
+    display: inline-block;
+    font-size: 22px;
+}
+
+#pokemon_role{
+    margin-left: 25vh;
+    font-size: 13px;
+}
+
+#pokemon_desc{
+    display: inline-block;
+    margin-left: 3vh;
+    width: 133vh;
+    margin-right: 15vh;
+}
+
+#pokemon a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#spam_ham img{
+    border-radius: 10px;
+    width: 240px;
+    height: 160px;
+    margin-left: 25vh;
+}
+
+#spam_ham_header{
+    margin-left: 25vh;
+    display: inline-block;
+    font-size: 22px;
+}
+
+#spam_ham_role{
+    margin-left: 25vh;
+    font-size: 13px;
+}
+
+#spam_ham_desc{
+    display: inline-block;
+    margin-left: 3vh;
+    width: 133vh;
+    margin-right: 15vh;
+}
+
+#spam_ham a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#touch_bidoof img{
+    border-radius: 10px;
+    width: 240px;
+    height: 160px;
+    margin-left: 25vh;
+}
+
+#touch_bidoof_header{
+    margin-left: 25vh;
+    display: inline-block;
+    font-size: 22px;
+}
+
+#touch_bidoof_role{
+    margin-left: 25vh;
+    font-size: 13px;
+}
+
+#touch_bidoof_desc{
+    display: inline-block;
+    margin-left: 3vh;
+    width: 133vh;
+    margin-right: 15vh;
+}
+
+#touch_bidoof a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#pokemon_vis img{
+    border-radius: 10px;
+    width: 240px;
+    height: 160px;
+    margin-left: 25vh;
+}
+
+#pokemon_vis_header{
+    margin-left: 25vh;
+    display: inline-block;
+    font-size: 22px;
+}
+
+#pokemon_vis_role{
+    margin-left: 25vh;
+    font-size: 13px;
+}
+
+#pokemon_vis_desc{
+    display: inline-block;
+    margin-left: 3vh;
+    width: 133vh;
+    margin-right: 15vh;
+}
+
+#pokemon_vis a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+}
