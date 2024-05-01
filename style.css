@@ -176,6 +176,10 @@ section#projects {
 }
 
 @media (max-width: 1000px) {
+  .nav-bar {
+    height: auto;
+  }
+  
   .home-title {
     font-size: 50px;
   }
@@ -208,6 +212,10 @@ section#projects {
 
 
 @media (max-width: 600px) {
+  .nav-bar {
+    height: auto;
+  }
+  
   .home-title {
     font-size: 30px;
   }
