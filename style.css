@@ -5,7 +5,6 @@
 }
 
 body{
-  padding-top: 300px;
   font-family: 'Raleway', "Trebuchet MS", sans-serif;
   /* background: #333; */
   background-image: linear-gradient(to bottom right, #9e22cb, #1e029a, #dc0cd2, #470c98, #1e029a);
@@ -75,6 +74,7 @@ body{
 
 section#home {
   /* color: rgba(51, 216, 245, 0.966); */
+  padding-top: 300px;
   filter: brightness(70%);
   font-size: 80px;
   padding-bottom: 400px;
