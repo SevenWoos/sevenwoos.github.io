@@ -72,6 +72,11 @@ body{
   /* color: rgba(51, 216, 245, 0.966);  */
 }
 
+.home-title:hover {
+  color: rgba(51, 216, 245, 0.966);
+  cursor: pointer;
+}
+
 section#home {
   /* color: rgba(51, 216, 245, 0.966); */
   padding-top: 300px;
